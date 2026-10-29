@@ -12,6 +12,7 @@ public class Exercicio24_ArrayFixo {
         System.out.println("Primeiro recorde: " + recordes[0]);
 
         //percorrer o vetor fixo com o for tradicional
+        //o .length busca qual é o tamanho la no new int[3], se caso mudar esse 3 para 10, o length se atualiza sozinho
         System.out.println("\n ---TODOS OS RECORDES---");
         for (int i = 0; i < recordes.length; i++){
             System.out.println("Posição " + i + "-> Valor: " + recordes[i]);
